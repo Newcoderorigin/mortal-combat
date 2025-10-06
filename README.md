@@ -8,7 +8,6 @@ A stylized 2D combat prototype built with Pygame that begins Phase 1 of the "Fra
 - **Reactive Parry Window** – Time your parry to deflect incoming blows, regain mythic focus, and stun the enemy for counterattacks.
 - **Enemy Patrol & Assault** – Face an echo sentinel that roams the arena, chases when you draw near, and telegraphs heavy swings.
 - **Health & Stamina Interface** – Monitor survivability and exertion through layered HUD bars and combat text cues.
-- **Stylized Combat Readability** – Silhouette sprites, aura animations, hit-stop, screen shake, and synthesized sound stabs sell each impact while parry flashes and name tags keep PvP feedback clear.
 - **Win / Lose Cycle** – Victory and defeat states pause the action and let you reset for another duel.
 
 Future phases will layer in the god-tier abilities (lightning, time-slow, void shift), combo systems, and the symbolic progression tree once the combat core feels sharp.
