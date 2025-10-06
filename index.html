@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>ΣA: Mortal Iterations // Century Archive</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <div id="background-decay"></div>
+  <main id="sim-root" class="epoch">
+    <header class="ideology-banner">
+      <h1>ΣA FRACTAL DECAY REGISTRY</h1>
+      <p class="subtitle">Codex-as-Civilization // Recursive Mortal Architectures 191-291 A.T.</p>
+      <div class="manifesto-ui">
+        <button id="echo-toggle" class="ideology-button" data-manifesto="ΣC-01">
+          Remember Previous Architect
+        </button>
+        <button id="ghost-toggle" class="ideology-button" data-manifesto="ΣD-21">
+          Invite Interference Ghosts
+        </button>
+        <button id="value-drift" class="ideology-button" data-manifesto="ΣE-∞">
+          Accelerate Value Drift
+        </button>
+      </div>
+    </header>
+
+    <section class="time-slice">
+      <label for="year-slider">Select Year Layer (1-100):</label>
+      <input type="range" id="year-slider" min="1" max="100" value="1" />
+      <div class="timeline" id="timeline"></div>
+    </section>
+
+    <section class="layer-display">
+      <article class="layer-card" id="layer-card">
+        <h2 id="layer-title"></h2>
+        <p id="layer-logline"></p>
+        <div class="layer-upgrades">
+          <h3>Recursive Micro-Upgrade</h3>
+          <p id="layer-upgrade"></p>
+        </div>
+        <div class="layer-artifacts">
+          <h3>Artifacts &amp; Fossils</h3>
+          <ul id="artifact-list"></ul>
+        </div>
+        <div class="patch-notes">
+          <h3>ΣB Mythopatch Log</h3>
+          <pre id="patch-log"></pre>
+        </div>
+      </article>
+      <aside class="echo-trace" id="echo-trace"></aside>
+    </section>
+
+    <section class="footnotes">
+      <h3>DevGod Registry</h3>
+      <ul id="devgod-list"></ul>
+      <p class="closing">ΣF // Memory persists in fragments. Some modules remain unlinked by design.</p>
+    </section>
+  </main>
+
+  <script src="simulation.js"></script>
+</body>
+</html>
